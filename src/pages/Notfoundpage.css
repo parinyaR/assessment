@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+.notfound-container {
+  width: 100vw;
+  height: 100vh;
+  
+background: rgb(0,30,108);
+background: linear-gradient(11deg, rgba(0,30,108,1) 0%, rgba(3,83,151,1) 35%, rgba(80,137,198,1) 100%);
+  display: flex;
+  font-family: 'Open Sans Condensed', sans-serif;
+  }
+  .notfound-card{
+    width: 70vw;
+    height: 80vh;
+    background-color: white;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    display: grid;
+    grid-template-rows: 1fr 0.3fr;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .em-container{
+    text-align: center;
+  }
+  .em-container .em-number{
+    font-size: 14rem;
+    font-weight: bold;
+    background: linear-gradient(11deg, rgba(0,30,108,1) 0%, rgba(3,83,151,1) 35%, rgba(80,137,198,1) 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .em-container .em-text{
+   font-size: 3rem;
+   font-weight: bold;
+   color: rgb(117, 115, 115); 
+  }
+  .em-container .em-detail{
+    font-size: 1rem;
+    color: rgb(66, 66, 66);
+    font-weight: lighter;
+  }
+
+  .button_back {
+    border: 1px solid #0c3053;
+    font: inherit;
+    padding: 6px;
+    background-color: #0c3053;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    text-decoration: none;
+  }
+  .button_back img{
+    width: 20px;
+    height: 20px;
+    align-content: center;
+  }
+  
+  .button_back:hover,
+  .button_back:active {
+    background-color: #FFAA4C;
+  }

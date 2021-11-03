@@ -1,0 +1,20 @@
+.btn{
+    text-decoration: none;
+    border: 1px solid #0c3053;
+    font: inherit;
+    padding: 8px 12px;
+    background-color: #0c3053;
+    color: white;
+    cursor: pointer;
+    
+    /* border-radius: 4px; */
+}
+.btn:hover{
+    background-color: #FFAA4C;
+}
+.btn:first-child{
+    border-radius: 12px 0px 0px 12px;
+}
+.btn:last-child{
+    border-radius: 0px 12px 12px 0px;
+}

@@ -1,0 +1,16 @@
+.button_add {
+    border: 1px solid #0c3053;
+    font: inherit;
+    padding: 6px;
+    background-color: #0c3053;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 8px;
+  }
+  
+  .button_add:hover,
+  .button_add:active {
+    background-color: #FFAA4C;
+  }

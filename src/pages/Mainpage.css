@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+.main-container{
+    /* padding: 12px 0px; */
+    margin-bottom: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.bg-formperson{
+    width: 100%;
+    margin-bottom: 78px;
+    border-radius: 0px 0px 12px 12px;
+}
+.bg-img{
+    background-image: url('../img/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+    height: 30vh;
+}
+.centered {
+    margin: 3rem auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

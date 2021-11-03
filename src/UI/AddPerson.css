@@ -1,0 +1,33 @@
+.add_person_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20%;
+}
+.add_person_container form{
+    padding: 1.5rem 2rem;
+    /* padding-bottom: 1.5rem; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.7fr 120px;
+    gap: 28px;
+}
+.add_person_container form .add_person{
+    margin-bottom: 12px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

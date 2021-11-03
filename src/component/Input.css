@@ -1,0 +1,24 @@
+.add_person label{
+ 
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+.add_person input{
+    font: inherit;
+    padding: 6px;
+    border-radius: 4px;
+    background-color: #f8fafe;
+    border: 1px solid #c1d1d1b9;
+    display: block;
+    width: calc(100% - 12px);
+    font-size: 18px;
+}
+.add_person input:focus{
+    outline: 2px solid #001E6C;
+    
+}
+.red-text input{
+    outline: 2px solid salmon;
+    /* background-color: rgba(250, 128, 114, 0.507); */
+}
