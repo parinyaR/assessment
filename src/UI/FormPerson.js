@@ -109,7 +109,7 @@ const FormPerson = (props) => {
             <form onSubmit={submitHandler}>
                 <Input value={inputName} onInput={inputNameHandler} classes={errorName ? "red-text" : ""} text="Name" type="text" />
                 <Input value={inputEmail} onInput={inputEmailHandler} classes={errorEmail ? "red-text" : ""} text="Email" type="text" />
-                <Input value={inputContact} onInput={inputContactHandler} classes={errorContact ? "red-text" : ""} text="Contact" type="number" />
+                <Input value={inputContact} onInput={inputContactHandler} classes={errorContact ? "red-text" : ""} text="Contact" type="text" />
                 <Button mode={props.mode} />
             </form>
         </div>

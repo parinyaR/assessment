@@ -39,7 +39,6 @@ const ListPerson = (props) => {
   }
 
 
-
   return (
     <div className="list-table">
       <div className="list-header-text">Person List</div>
@@ -50,12 +49,11 @@ const ListPerson = (props) => {
         <div>Contact</div>
         <div></div>
       </div>
-      {/* <div className="content_box"> */}
-
+      
 
       {loadPerson.map((value) => (
         <div className="list-body" key={value.id}>
-          <div className="list-item" >{value.id_run}</div>
+          <div className="list-item" >{value.id_run?value.id_run:value.id}</div>
           <div className="list-item" >{value.name}</div>
           <div className="list-item" >{value.email}</div>
           <div className="list-item" >{value.phone}</div>
